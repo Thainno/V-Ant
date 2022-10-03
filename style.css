@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@300&display=swap');
+
+/*--------------Style cabeçalho--------------*/
+
+/*Corpo da página*/
+body {
+    background-color: white;
+}
+
+/*Cabeçalho da página*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3c8c74;
+    border-bottom: 1px solid white;
+}
+
+/*Logo da página*/
+.logo-footer {
+    width: 50px;
+    margin: 12px 0px 12px 0px;
+} 
+
+/*Quando passar o mouse por cima da logo*/
+.logo-footer:hover {
+    cursor: pointer;
+}
+
+/*Menu de navegação do cabeçalho*/
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Cada item do menu de navegação do cabeçalho*/
+.menu-item {   
+    font-family: 'Poppins', sans-serif;    
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/*Quando passar o mouse por cima do menu de navegação*/
+.menu-item:hover {
+    font-size: 18.3px;
+    cursor: pointer;
+}
+
+/*--------------Style conteúdo principal (main)--------------*/
+
+/*Títulos h1, h2 e h3 do conteúdo principal*/
+main section h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: rgb(26, 46, 33);
+}   
+
+/*Parágrafos do conteúdo principal*/
+main section p {
+    font-family: 'Poppins', sans-serif; 
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(46, 51, 48); ;
+}
+
+/*Style conteúdo de download para windows*/
+.conteudo-download-windows, .conteudo-download-android, .conteudo-vpn, .conteudo-download-geral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 72vw;
+    padding: 0vw 13.46vw 0vw 13.46vw;
+    background: white;
+    margin-bottom: 50px;
+}
+
+/*Conteúdo escrito*/
+.conteudo-download-windows-escrito, .conteudo-download-android-escrito, .conteudo-vpn-escrito, .conteudo-download-geral-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+ /*Imagem do conteúdo de download para windows*/
+.conteudo-img {
+    width: 40vw;
+}
+
+/*Botão de Download*/
+.conteudo-download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: white;
+    background-color: #3c8c74;
+    width: 320px;
+    border-radius: 40px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgb(46, 51, 48);
+}
+
+.conteudo-download-btn:hover {
+    cursor: pointer;
+    background-color: rgb(57, 110, 94);
+}
+
+/*Imagem no botão de Download*/
+.conteudo-download-btn-img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+/*Cor de fundo conteúdo Download android*/
+.conteudo-download-android, .conteudo-download-geral {
+    background: white;
+}
+
+/*--------------Style cdo Footer (rodapé)--------------*/
+
+footer {
+    background-color: #3c8c74;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif; 
+    color: aliceblue;   
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.itens-footer-1, .itens-footer-2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.itens-footer a {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+    color: aliceblue; 
+}
