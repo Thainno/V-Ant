@@ -105,6 +105,7 @@ main section p {
     box-shadow: 2px 2px 5px rgb(46, 51, 48);
 }
 
+/*Quando passar o cursor do mouse por cima do botão de download*/
 .conteudo-download-btn:hover {
     cursor: pointer;
     background-color: rgb(57, 110, 94);
@@ -123,6 +124,7 @@ main section p {
 
 /*--------------Style cdo Footer (rodapé)--------------*/
 
+/*Conteúdo geral do footer*/
 footer {
     background-color: #3c8c74;
     padding: 20px;
@@ -130,6 +132,7 @@ footer {
     color: aliceblue;   
 }
 
+/*Cada link do footer*/
 .itens-footer {
     display: flex;
     flex-direction: row;
@@ -137,12 +140,14 @@ footer {
     justify-content: space-around;
 }
 
+/*Colunas do footer*/
 .itens-footer-1, .itens-footer-2{
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
+/*Links do footer*/
 .itens-footer a {
     text-decoration: none;
     padding: 10px;
