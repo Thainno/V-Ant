@@ -52,7 +52,7 @@ header {
 /*--------------Style conteúdo principal (main)--------------*/
 
 /*Títulos h1, h2 e h3 do conteúdo principal*/
-main section h1, h2, h3{
+main section h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
     color: rgb(26, 46, 33);
@@ -122,6 +122,11 @@ main section p {
     background: white;
 }
 
+h1::selection, h2::selection, h3::selection, p::selection, a::selection, img::selection {
+    background-color: #449484;
+    color: white;
+}
+
 /*--------------Style cdo Footer (rodapé)--------------*/
 
 /*Conteúdo geral do footer*/
@@ -154,3 +159,4 @@ footer {
     font-family: 'Poppins', sans-serif; 
     color: aliceblue; 
 }
+
